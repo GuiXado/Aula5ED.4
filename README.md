@@ -21,9 +21,9 @@ Notação Polonesa Reversa:
 
 • Operação npr(Pilha p, String op):int. O método deve verificar se a String se trata de uma operação (+,-,*,/), verifica se é possível fazer 2 pop() e, em sendo possível, fazer os 2 pop(), fazer a operação, gravar em uma variável resultado (que é o retorno da operação) e fazer o push() do resultado.
 
-      o Para operações de subtração e divisão (que a ordem importa), fazer o valor do 2o pop() operação valor do 1o pop(), ou seja o valor mais antigo à esquerda da operação
+o Para operações de subtração e divisão (que a ordem importa), fazer o valor do 2o pop() operação valor do 1o pop(), ou seja o valor mais antigo à esquerda da operação
   
-      o Se não houverem 2 valores, deve-se lançar um Exception de pilha com valores insuficientes
+o Se não houverem 2 valores, deve-se lançar um Exception de pilha com valores insuficientes
 
 A classe view Principal, deve inicializar a pilha e solicitar dados (número ou operação) ao usuário até alguma condição de encerramento, definido por você.
 
